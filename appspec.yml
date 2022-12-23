@@ -3,4 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
+     Applicationstart:
+    - location: npm.sh
+      timeout: 300
+      runas: root
     
