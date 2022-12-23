@@ -1,11 +1,11 @@
 version: 0.0
-os: linux
+os: linux 
 files:
   - source: /
     destination: /var/www/html/
-    hooks:
-     Applicationstart:
+hooks:
+  ApplicationStart:
     - location: npm.sh
       timeout: 300
-      runas: root
+      runas: ubuntu
     
