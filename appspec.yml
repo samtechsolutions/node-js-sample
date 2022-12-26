@@ -7,5 +7,6 @@ hooks:
   ApplicationStart:
     - location: npm.sh
       timeout: 300
+      runas: ubuntu
       
-    
+  
